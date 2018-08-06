@@ -3,7 +3,7 @@
 #include <reg51.h>
 #include "types.h"
 void initLed();
-void lightLed(unsigned int i);
+void lightLed(unsigned int which);
 
 
 #endif
