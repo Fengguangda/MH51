@@ -22,5 +22,16 @@ void offLed(unsigned int which)
 	P0 &= ~((1U)<<(which-1));	
 }
 
+void testLed()
+{
+	unsigned int i = 0;
+	initLed();
+	for(i = 0;i < 8;i++)
+	{
+		lightLed(i);
+	}
+	offLed(2);
+}
+
 
 

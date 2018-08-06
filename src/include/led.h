@@ -5,6 +5,7 @@
 void initLed();
 void lightLed(unsigned int which);
 void offLed(unsigned int which);
+void testLed();
 
 
 #endif
