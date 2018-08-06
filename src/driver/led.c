@@ -13,5 +13,14 @@ void lightLed(unsigned int which)
 	uchar setValue = 1<<which;
 	P0 |= setValue;
 }
+/*
+  unsigned int which:to control which led will be close
+*/
+void offLed(unsigned int which)
+{
+	//uchar setValue = ~(1<<which);
+	P0 &= ~((1U)<<(which-1));	
+}
+
 
 

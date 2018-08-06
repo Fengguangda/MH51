@@ -4,6 +4,7 @@
 #include "types.h"
 void initLed();
 void lightLed(unsigned int which);
+void offLed(unsigned int which);
 
 
 #endif
